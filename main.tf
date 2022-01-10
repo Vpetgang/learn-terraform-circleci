@@ -7,10 +7,11 @@ terraform {
   }
   required_version = "> 0.14"
   backend "s3" {
-    bucket = "circle-ci-backend-001-20220110044538657000000001"
-    key    = "terraform/webapp/terraform.tfstate"
-    region = "us-east-1"
-    profile = "vpetgangtest"
+    bucket     = "circle-ci-backend-001-20220110044538657000000001"
+    key        = "terraform/webapp/terraform.tfstate"
+    region     = "us-east-1"
+    access_key = "AKIAZEPYR5GVFY6I42XC"
+    secret_key = "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"
   }
 }
 
